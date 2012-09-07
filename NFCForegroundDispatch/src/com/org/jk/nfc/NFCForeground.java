@@ -46,7 +46,6 @@ public class NFCForeground extends Activity {
     	String tagData = "";
     	Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
     	Ndef ndef = Ndef.get(tag);
-    	tagData += "Tag Discovered \nID :"+tag.getId()+"\n";    		
 
     	if(ndef!=null){
     		tagData += "Type: " + ndef.getType()+"\n";
