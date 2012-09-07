@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">NFCForegroundDispatch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scan_tag">Scan a Tag</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_nfcforeground">NFCForeground</string>
+
+</resources>
